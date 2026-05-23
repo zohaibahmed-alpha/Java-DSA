@@ -1,21 +1,20 @@
 import java.util.*;
 public class Lec6prac {
-    public static void printSum(int n){
-        int sum = 0;
-      for(int i=1; i<=n; i++){
-        System.out.println(i);
-        if(i % 2 != 0){
-           sum = sum + i;
-        }
-      }
-      System.out.println(sum);
+  public static void printAge(int n) {
+    if(n >= 18) {
+      System.out.println("elegible to vote");
+    } else {
+      System.out.println("not eligible");
     }
+  }
+   
     
     
         public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        printSum(n);
+        printAge(n);
+        
         
     }
     
