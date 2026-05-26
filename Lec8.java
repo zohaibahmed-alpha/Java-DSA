@@ -3,13 +3,19 @@ public class Lec8 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
-        int number[] = new int[size];
+        int numbers[] = new int[size];
         for(int i=0; i<size; i++){
-            number[i] = sc.nextInt();
+            numbers[i] = sc.nextInt();
         }
-        for(int i=0; i<=size; i++){
-        System.out.println(number[i]);
-    }
+        for(int i=0; i<size; i++){
+            System.out.println(numbers[i]);
+        }
+        int x = sc.nextInt();
+        for(int i=0; i<numbers.length; i++){
+         if(numbers[i] == x) {
+            System.out.println("number found at index:" + i);
+         }
+        }
 }
     
 }
