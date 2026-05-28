@@ -14,6 +14,8 @@ public class Lec8 {
         for(int i=0; i<numbers.length; i++){
          if(numbers[i] == x) {
             System.out.println("number found at index:" + i);
+         } else{
+            System.out.println("no number found");
          }
         }
 }
