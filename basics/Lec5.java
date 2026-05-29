@@ -1,3 +1,4 @@
+package basics;
 import java.util.*;
 public class Lec5 {
     public static void main(String args[]){

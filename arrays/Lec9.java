@@ -1,3 +1,4 @@
+package arrays;
 import java.util.*;
 public class Lec9 {
     public static void main (String args[]){

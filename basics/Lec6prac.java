@@ -1,3 +1,4 @@
+package basics;
 import java.util.*;
 public class Lec6prac {
   public static void printCirCum(int r) {

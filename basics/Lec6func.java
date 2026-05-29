@@ -1,3 +1,4 @@
+package basics;
 import java.util.*;
 public class Lec6func {
     // public static int printMul(int a, int b){
