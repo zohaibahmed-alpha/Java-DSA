@@ -1,4 +1,4 @@
-package leetcode;
+package arrays;
 
 public class Arrayreverse {
     public static void main(String args[]){

@@ -1,4 +1,4 @@
-package leetcode;
+package arrays;
 
 import java.util.*;
 public class ArraySum {
